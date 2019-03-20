@@ -4,7 +4,8 @@
   "description": "atelier node-chalk,",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "node index.js",
+    "sample": "echo “Sample” && node main.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,5 @@
   "dependencies": {
     "chalk": "^2.4.2"
   },
-  "devDependencies": {},
-  "scripts": {
-    "start": "node index.js",
-    "sample": "echo “Sample” && node main.js"
-  }
-
+  "devDependencies": {}
 }
